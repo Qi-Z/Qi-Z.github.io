@@ -1,73 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+        /* Add a gray background color and some padding to the footer */
+        
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+        
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="jumbotron">
-  <div class="container text-center">
-    <h1>My Portfolio</h1>      
-    <p>Hi everyone! My name is Qi Zhang. I am a graduate student from the University
-        of Illinois at Urbana-Champaign. I major in computer science :)
-    </p>
-  </div>
-</div>
-  
-<div class="container-fluid bg-3 text-center">    
-  <h3>Some of my projects</h3><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Fronrator</p>
-      <img src="images/Fronrator.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>My Portfolio</h1>
+            <p>Hi! My name is Qi Zhang.</p>
+        </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>IMDB Directory</p>
-      <img src="images/IMDB directory.png" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    
-  </div>
-</div><br>
 
-<footer class="container-fluid text-center">
-  <p>Contact</p>
-</footer>
+    <div class="container-fluid bg-3 text-center">
+        <h3>Some of my projects</h3><br>
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Fronrator</h3>
+                <a href="https://calm-springs-52943.herokuapp.com/"><img src="images/Fronrator.png" class="img-responsive" style="width:100%" alt="Image"></a>
+            </div>
+            <div class="col-sm-3">
+                <h3>IMDB Directory</h3>
+                <a href="https://limitless-citadel-88141.herokuapp.com/#/list"><img src="images/IMDB directory.png" class="img-responsive" style="width:100%" alt="Image"></a>
+            </div>
+
+        </div>
+    </div><br>
+
+    <footer class="container-fluid text-center">
+        <a href="https://www.linkedin.com/in/qi-zhang-04955b6b/" class="fa fa-linkedin"></a>
+    </footer>
 
 </body>
+
 </html>
