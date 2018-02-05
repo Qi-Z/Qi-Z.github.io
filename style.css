@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.chat-window {
+    background: #7952b3;
+}
+
+.chat-input {
+    height: 54px;
+    width: 100%;
+    background: #7952b3;
+}
+
+.chat-input input {
+    background: #7952b3;
+    border: 0;
+    height: 100%;
+    width: 80%;
+    color: white;
+    font-size: 30px;
+}

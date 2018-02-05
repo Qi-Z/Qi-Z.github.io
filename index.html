@@ -5,14 +5,16 @@
     <title>Qi's Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -35,10 +37,6 @@
         }
 
         /* Add a gray background color and some padding to the footer */
-
-        body {
-            font-family: 'BioRhyme', serif;
-        }
 
         footer {
             background-color: #f2f2f2;
@@ -120,8 +118,6 @@
     </div>
     <br>
 
-
-
     <footer class="container-fluid text-center">
         <!--<a href="https://www.linkedin.com/in/qi-zhang-04955b6b/" class="fa fa-linkedin"></a>-->
         <ul class="list-inline banner-social-buttons">
@@ -138,6 +134,17 @@
         </ul>
     </footer>
 
+    <!-- chat window -->
+    <div class="chat-window fixed-bottom container-fluid px-0 mx-0">
+        <div class="conversation row"></div>
+        <div class="chat-input row">
+            <input class="pl-4 col-8">
+
+            <div class="col-2 text-white text-uppercase text-center py-3">Tell me sth</div>
+            <div class="col-2 text-white text-uppercase text-center py-3">Send</div>
+        </div>
+    </div>
 </body>
+<script src="js/index.js"></script>
 
 </html>
