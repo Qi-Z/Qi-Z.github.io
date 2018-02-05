@@ -24,7 +24,7 @@ var me = {
         'Javascript', 'Typescript', 'Python', 'Ruby', 'Java', 'C++', 'C'
     ],
     'techStack': [
-        'Angular 2+', 'Node.js', 'Express', 'RxJS'
+        'Angular 2+', 'Node.js', 'Express', 'RxJS', 'ngrx'
 
     ],
     'videoGames': [
@@ -37,12 +37,12 @@ var me = {
             'title': 'Frontend Developer',
             'projectDescription': 'Build Angular Application for Xfinity Mobile agents.',
             'technology': [
-                'Angular 4', 'SCSS', 'CSS', 'HTML5', 'Swagger', 'Postman', 'Karma', 'Jasmine'
+                'Angular 4', 'SCSS', 'CSS', 'HTML5', 'Swagger', 'Postman', 'Karma', 'Jasmine', 'Webpack'
             ]
         }
     ],
     'willLearn': [
-        'D3.js', 'Webpack', 'Echarts', 'React', 'Ngrx'
+        'D3.js', 'Webpack', 'Echarts', 'React', 'ngrx'
     ]
 
 }
