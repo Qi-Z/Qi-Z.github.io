@@ -2,66 +2,50 @@
 <html lang="en">
 
 <head>
-    <title>Qi's Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  <title>Qi's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/data.js"></script>
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        ga('create', 'UA-97209298-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme" rel="stylesheet">
 
-    <style>
-        /* Remove the navbar's default margin-bottom and rounded borders */
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/data.js"></script>
+  <script>
+      (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () {
+              (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+              m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-        .navbar {
-            margin-bottom: 0;
-            border-radius: 0;
-            background: #262B37;
-        }
+      ga('create', 'UA-97209298-1', 'auto');
+      ga('send', 'pageview');
+  </script>
 
-        /* Add a gray background color and some padding to the footer */
+  <style>
 
-        footer {
-            background-color: #f2f2f2;
-            padding: 25px;
-        }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
 
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 70px;
-            text-align: center;
-            text-decoration: none;
-            margin: 5px 2px;
-        }
+  </style>
 
-        .fa:hover {
-            opacity: 0.7;
-        }
-
-        .fa-linkedin {
-            background: #007bb5;
-            color: white;
-        }
-    </style>
-     
 </head>
 
 <body>
@@ -75,65 +59,160 @@
                                                            
 I am looking for a job
 -->
-    <div class="jumbotron">
-        <div class="container text-center">
-            <div>
-
-                <h1>Qi Zhang</h1>
-                <p>Web developer</p>
-
-            </div>
-
-        </div>
+<div class="jumbotron">
+  <div class="container text-center">
+    <div>
+      <h1>Qi Zhang</h1>
+      <p>Software Engineer, passionate about web technology <i class="fas fa-code"></i></p>
     </div>
 
-    <div class="container-fluid bg-3 text-center">
-        <h3>Some of my projects</h3>
-        <br>
-        <div class="row">
-            <div class="col-sm-3">
-                <h3>Fronrator</h3>
-                <a href="https://calm-springs-52943.herokuapp.com/">
-                    <img src="images/Fronrator.png" class="img-responsive" style="width:100%" alt="Image">
-                </a>
-            </div>
-            <div class="col-sm-3">
-                <h3>IMDB Directory</h3>
-                <a href="https://limitless-citadel-88141.herokuapp.com/#/list">
-                    <img src="images/IMDB directory.png" class="img-responsive" style="width:100%" alt="Image">
-                </a>
-            </div>
 
+  </div>
+  <div class="container-fluid skills bg-white">
+    <!--Frameworks and languages-->
+    <div class="skill pb-1">
+      <div>Angular 4+ <i class="fab fa-angular"></i></div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
         </div>
+      </div>
     </div>
-    <br>
+    <div class="skill pb-1">
+      <div>Typescript</div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>Javascript <i class="fab fa-js"></i></div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>CSS3 <i class="fab fa-css3-alt"></i></div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>RxJS</div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>Bootstrap</div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 100%;">proficient
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>Java </div>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 66%;">intermediate
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>Python <i class="fab fa-python"></i></div>
+      <div class="progress">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 66%;">intermediate
+        </div>
+      </div>
+    </div>
+    <div class="skill pb-1">
+      <div>React <i class="fab fa-react"></i></div>
+      <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 33%;">beginner
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    <footer class="container-fluid text-center">
-        <!--<a href="https://www.linkedin.com/in/qi-zhang-04955b6b/" class="fa fa-linkedin"></a>-->
-        <ul class="list-inline banner-social-buttons">
-            <li>
-                <a href="https://www.linkedin.com/in/qi-zhang-04955b6b/">
-                    <i class="fa fa-linkedin-square" style="font-size:36px;color:black"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/Qi-Z">
-                    <i class="fa fa-github-square" style="font-size:36px;color:black"></i>
-                </a>
-            </li>
+<!-- timeline -->
+<h2 class="text-center">Career Timeline</h2>
+<div class="container">
+  <div class="timeline">
+    <div class="tl-container left">
+      <div class="tl-content">
+        <h2>Oct 2017 - Present</h2>
+        <i>Front-End Developer, Comcast</i>
+        <ul class="list-group">
+          <li>Build Single Page Web Application with Angular 4+</li>
+          <li>Bring wireframes of UX designers to life with Bootstrap 4, Sass, and HTML5</li>
+          <li>Craft various features and reusable components using Angular 4/5 and Typescript</li>
+          <li>Implement Angular services to consume Restful API</li>
+          <li>Unit testing with Jasmine and Karma</li>
         </ul>
-    </footer>
-
-    <!-- chat window -->
-    <div class="chat-window fixed-bottom container-fluid px-0 mx-0">
-        <div class="conversation row"></div>
-        <div class="chat-input row">
-            <input class="pl-4 col-8">
-
-            <div class="col-2 text-white text-uppercase text-center py-3">Tell me sth</div>
-            <div class="col-2 text-white text-uppercase text-center py-3">Send</div>
-        </div>
+      </div>
     </div>
+    <div class="tl-container right">
+      <div class="tl-content">
+        <h2>2017</h2>
+        <p>Graduated from University of Illinois at Urbana-Champaign</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-3 text-center projects mt-5 py-4">
+  <h3>Some of my ancient projects</h3>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3>Fronrator</h3>
+      <a href="https://calm-springs-52943.herokuapp.com/">
+        <img src="images/Fronrator.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <h3>IMDB Directory</h3>
+      <a href="https://limitless-citadel-88141.herokuapp.com/#/list">
+        <img src="images/IMDB directory.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <ul class="list-unstyled d-flex justify-content-around banner-social-buttons">
+    <li>
+      <a href="https://www.linkedin.com/in/qi-zhang-04955b6b/" target="_blank">
+        <i class="fab fa-linkedin" style="font-size:36px;"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/Qi-Z" target="_blank">
+        <i class="fab fa-github-square" style="font-size:36px;color:black"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://medium.com/@zhang.qi.js" target="_blank">
+        <i class="fab fa-medium" style="font-size:36px;color:black"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://jsfiddle.net/user/CodeAlchemist/fiddles/" target="_blank">
+        <i class="fab fa-jsfiddle" style="font-size:36px;color:black"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://stackblitz.com/@Qi-Z" target="_blank">
+        <i class="fab fa-angular" style="font-size:36px;color:black"></i>
+      </a>
+    </li>
+  </ul>
+</footer>
+
 </body>
 <script src="js/index.js"></script>
 
